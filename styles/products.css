@@ -69,6 +69,10 @@ header {
     position: absolute;
     top: 5%;
     left: 5%;
+    color: #555555; 
+}
+.collections_modern-content p{
+    padding-bottom: 400px;
 }
 .aside{
     position: relative;
@@ -78,9 +82,11 @@ header {
     width: auto;
 }
 .aside-content{
-     position: absolute;
+    position: absolute;
     top: 5%;
     left: 5%;
+    color: #555555;
+
 }
 .aside-top{
     margin-bottom: 15px;
@@ -92,16 +98,19 @@ margin: 10px 50px;
 .trending h2{
     text-align: center;
     text-transform: uppercase;
+    color: #555555;
+
 }
 .trending-products{
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin-bottom: 20px;
+    row-gap: 25px;
+    margin-bottom: 40px;
 }
 .sample-product{
    height: fit-content;
-   width:220px;
+   width:240px;
    margin: 0 auto;  
 }
 .sample-product img{
@@ -115,6 +124,8 @@ margin: 10px 50px;
     font-weight: 600;
     color: #1f2937;
     font-size: 17px;
+    color: #555555;
+
 }
 .sample-product p{
     font-size: 16px;
@@ -149,9 +160,17 @@ margin: 10px 50px;
 }
 
 /* *********Special offer section************* */
+.special-offer_section h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #555555;
+    text-align: center;
+}
 .special-offer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .offer{
     height: 250px;
@@ -172,12 +191,15 @@ margin: 10px 50px;
     font-weight: 600;
     font-size: 22px;
     line-height: 28px;
+    color: #555555;
+
 }
 .special-offer_content p{
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
     padding: 8px 0;
+    color: #555555;
 }
 .offer-price{
     display: flex;
@@ -222,7 +244,6 @@ margin: 10px 50px;
 
     height: 40px;
     width: 40px;
-    color: #e5e7eb;
     background: #3881f6;
     border-radius: 50%;
 }
@@ -236,9 +257,24 @@ margin: 10px 50px;
     text-align: center;
     letter-spacing: 0.005em;
     text-transform: uppercase;
+    color: #e5e7eb;
+
 }
 #offer-countdown_number{
     font-weight: 500;
     font-size: 14px;
     line-height: 120%;
+    color: #e5e7eb;
+
+}
+footer{
+    width: 100%;
+    background: #1f2937;
+    color: #f9faf8;
+    padding: 40px;
+    margin-top: 30px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
