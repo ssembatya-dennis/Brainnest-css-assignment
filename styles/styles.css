@@ -100,6 +100,8 @@ h3{
 .sample-products_container img{
     width: 180px;
     height: auto;
+    border:2px solid #3881f670;
+    border-radius: 8px;
 }
 .sample-product h4{
     font-weight: 600;
@@ -108,7 +110,7 @@ h3{
 }
 .sample-product p{
     font-size: 16px;
-    color: #1f2937;
+    color: #3881f6;
     font-weight: 800;
     letter-spacing: 1.2px;
 
